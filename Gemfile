@@ -10,6 +10,7 @@ gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
+gem 'devise', '~> 4.7', '>= 4.7.3'
 
 
 gem 'bootsnap', '>= 1.4.2', require: false
