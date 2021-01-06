@@ -1,0 +1,14 @@
+<div class="jumbotron">
+  <p class="display-4">
+    
+    <%= @friend.first_name + " " + @friend.last_name %>
+  </p>
+  <hr class="my-4">
+  <p>
+    <%= @friend.phone %> &nbsp;|&nbsp; <%= @friend.email %> &nbsp;|&nbsp; <%= @friend.twitter %>
+  </p>
+
+</div>
+
+<%= link_to 'Edit', edit_friend_path(@friend), class: "btn btn-secondary" %>
+<%= link_to 'Back', friends_path, class: "btn btn-dark" %>
